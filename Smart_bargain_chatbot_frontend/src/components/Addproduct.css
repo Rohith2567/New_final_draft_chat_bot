@@ -1,0 +1,29 @@
+/* General Page Styling */
+.add-product-page {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Top Bar Styling */
+  .top-bar {
+    width: 100%;
+    background-color: rgba(224, 224, 224, 0.462);
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+    z-index: 0;
+  }
+  
+  .back-button {
+    margin-left: 20px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    cursor: pointer;
+    color: #002f34;
+  }
